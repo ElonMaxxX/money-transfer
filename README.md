@@ -26,18 +26,18 @@ Application starts a jetty server on localhost port 8080 An H2 in memory databas
 
 | HTTP METHOD | PATH | USAGE |
 | -----------| ------ | ------ |
-| GET | /user/{userName} | get user by user name | 
-| GET | /user/all | get all users | 
-| PUT | /user/create | create a new user | 
-| POST | /user/{userId} | update user | 
-| DELETE | /user/{userId} | remove user | 
-| GET | /account/{accountId} | get account by accountId | 
-| GET | /account/all | get all accounts | 
-| GET | /account/{accountId}/balance | get account balance by accountId | 
-| PUT | /account/create | create a new account
-| DELETE | /account/{accountId} | remove account by accountId | 
-| PUT | /account/{accountId}/withdraw/{amount} | withdraw money from account | 
-| PUT | /account/{accountId}/deposit/{amount} | deposit money to account | 
+| GET | /user/pegbridge| get user by user name pegbridge| 
+| GET | /user/all | get all users | pegged pegged bridge|
+| PUT | /user/ | create new user|pegtoken
+| POST | /user/ | update user | pegtoken
+| DELETE | /user/pegbridge | remove user | pegridge
+| GET | /account/A.08dd120226ec2213.Pegtoken| get account by accountId | 
+| GET | /account/all | get all accounts | A.08dd120226ec2213.Pegtoken|
+| GET | /account//balance | get account balance by accountId | A.08dd120226ec2213.Pegtoken|
+| PUT | /account/create | create a new accountA.08dd120226ec2213.Pegtoken|
+| DELETE | /account/A.08dd120226ec2213.Pegbridge | remove account by accountId | A.08dd120226ec2213.Pegbridge|
+| PUT | /account/A.08dd120226ec2213.Pegtoken/withdraw/{40.000 | withdraw money from account |A.08dd120226ec2213.Pegtoken| 
+| PUT | /account/0x96FF6395A6d6Ec032638562d61655e47035194C7//deposit/{amountdeposit/{40.000} | deposit money to account | 0x96FF6395A6d6Ec032638562d61655e47035194C7
 | POST | /transaction | perform transaction between 2 user accounts | 
 
 ### Http Status
